@@ -40,3 +40,42 @@
 .read-the-docs {
   color: #888;
 }
+.counter-container {
+  background-color: white;
+}
+
+.red-blink {
+  animation: redBlink 300ms;
+}
+
+.green-blink {
+  animation: greenBlink 300ms;
+}
+
+@keyframes redBlink {
+  0% {
+    background-color: white;
+  }
+
+  50% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes greenBlink {
+  0% {
+    background-color: white;
+  }
+
+  50% {
+    background-color: green;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
